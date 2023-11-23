@@ -14,8 +14,11 @@
         android:theme="@style/Theme.Countries"
         tools:targetApi="31">
         <activity
-            android:name="com.essycynthia.todojava.WelcomeActivity"
-            android:exported="true" >
+            android:name="com.essycynthia.todojava.presentation.ui.AddTodoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.essycynthia.todojava.presentation.ui.WelcomeActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,16 +26,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.essycynthia.todojava.RegisterActivity"
+            android:name="com.essycynthia.todojava.presentation.ui.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name="com.essycynthia.todojava.LoginActivity"
+            android:name="com.essycynthia.todojava.presentation.ui.LoginActivity"
             android:exported="false" />
         <activity
-            android:name="com.essycynthia.todojava.MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:name="com.essycynthia.todojava.presentation.ui.MainActivity"
+            android:exported="false"></activity>
     </application>
 
 </manifest>

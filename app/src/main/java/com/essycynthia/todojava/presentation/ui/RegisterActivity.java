@@ -1,4 +1,4 @@
-package com.essycynthia.todojava;
+package com.essycynthia.todojava.presentation.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 

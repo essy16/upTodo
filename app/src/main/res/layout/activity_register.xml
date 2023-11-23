@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.essycynthia.todojava.RegisterActivity">
+    tools:context="com.essycynthia.todojava.presentation.ui.RegisterActivity">
 
     <TextView
         android:id="@+id/textView3"
